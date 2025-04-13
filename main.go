@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/macmiranda/dockertags/cmd/dockertags"
+	"github.com/macmiranda/dockertags/cmd"
 )
 
 func main() {
-	dockertags.Execute()
+	cmd.Execute()
 }
